@@ -1,0 +1,79 @@
+html, body {
+    background-color: #000000 !important;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f1f1f1;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* O container principal usa Flexbox para colocar as 3 seções lado a lado */
+.portal-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Garante responsividade em telas menores */
+}
+
+/* ==========================================================
+   ESTILIZAÇÃO DAS SEÇÕES (CARDS)
+   ========================================================== */
+.secao-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    min-width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Classes para padronizar os títulos das seções */
+.titulo-secao {
+    font-size: 1.4rem;
+    color: #00d2ff;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #00d2ff;
+    padding-bottom: 5px;
+}
+
+/* ID aplicado de forma única no cabeçalho ou subtítulo principal */
+#id-destaque-subtitulo {
+    font-size: 1.1rem;
+    color: #a0a0a0;
+    margin-top: 5px;
+}
+
+/* ==========================================================
+   ESTILIZAÇÃO DAS IMAGENS E TEXTOS
+   ========================================================== */
+.grupo-imagens {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+/* Classe para padronizar o tamanho e visual das imagens ilustrativas */
+.imagem-estilizada {
+    width: 32%;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #555;
+}
+
+.texto-explicativo {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #cccccc;
+}
