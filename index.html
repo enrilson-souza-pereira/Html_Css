@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portal de Entretenimento Digital</title>
+
+    <!-- 1. Reset CSS (Deve vir obrigatoriamente ANTES do arquivo principal) -->
+    <link rel="stylesheet" href="reset.css">
+
+    <!-- 2. CSS Externo -->
+    <link rel="stylesheet" href="style.css">
+     
+    <!-- 3. CSS Interno (Aplicado dentro da tag <style> no <head>) -->
+    <style>
+        .portal-principal-titulo {
+            font-size: 2.5rem;
+            color: #ffcc00; /* Amarelo moderno e vibrante */
+            text-align: center; /* Garante que o texto fique centralizado */
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Título estilizado via CSS Interno -->
+        <h1 class="portal-principal-titulo">Meu Portal de Entretenimento Digital</h1>
+        <!-- ID exigido pelos requisitos -->
+        <p id="id-destaque-subtitulo">Sua central definitiva de cultura pop, som e tecnologia</p>
+    </header>
+
+    <!-- Container Flexbox organizando as 3 seções lado a lado -->
+    <main class="portal-container">
+
+        <!-- Seção 1: Filmes e Séries -->
+        <section class="secao-card">
+            <h2 class="titulo-secao">Filmes e Séries</h2>
+            
+            <div class="grupo-imagens">
+                <img src="https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"" alt="The Walking Dead" class="imagem-estilizada">
+                <img src="https://m.media-amazon.com/images/M/MV5BODBmMjFiMzItOGI3Zi00ZjkwLThlNTItMDcxYWVhM2UyOGY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Chaves" class="imagem-estilizada">
+                <img src="https://s2.glbimg.com/QSoC7ZddE0EGn8Qh8bPmWGDx9Cc=/s.glbimg.com/jo/g1/f/original/2015/01/03/g1_breaking_bad_foto_divulgacao.jpg" alt="Breaking Bad" class="imagem-estilizada">
+            </div>
+
+            <p class="texto-explicativo">
+    Reviva momentos marcantes da TV e do cinema acompanhando a tensão de <strong>The Walking Dead</strong> e <strong>Breaking Bad</strong>, sem esquecer as gargalhadas nostálgicas com os episódios clássicos de <strong>Chaves</strong>.
+           </p>
+        </section>
+
+        <!-- Seção 2: Música e Podcasts -->
+        <section class="secao-card">
+            <h2 class="titulo-secao">Música e Podcasts</h2>
+            
+            <div class="grupo-imagens">
+                <img src="https://uploads.tenhomaisdiscosqueamigos.com/2013/03/Depeche-Mode-Delta-Machine-Album-Cover-2013.jpg" alt="Depeche Mode" class="imagem-estilizada">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_798094-MLB91686516211_092025-O.webp" alt="The Cure" class="imagem-estilizada">
+                <img src="https://www.universalmusic.com.br/wp-content/uploads/sites/628/2017/11/TearsForFears_RuleTheWorld_TheGreatestHits_10112017.jpg" alt="Tears for Fears" class="imagem-estilizada">
+            </div>
+
+            <p class="texto-explicativo">
+    Viaje no tempo com as melodias marcantes e o som atemporal do rock alternativo e pós-punk de lendas inconfundíveis como <strong>The Cure</strong>, <strong>Depeche Mode</strong> e <strong>Tears for Fears</strong>.
+            </p>
+        </section>
+
+        <!-- Seção 3: Games e Tecnologia -->
+        <section class="secao-card">
+            <h2 class="titulo-secao">Games e Tecnologia</h2>
+            
+            <div class="grupo-imagens">
+                <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/2917/ioBY2WYNWmehDJNk7I9IokSv.png" alt="God of War" class="imagem-estilizada">
+                <img src="https://s2-techtudo.glbimg.com/meWlQslEE_Gf3kfdGyaXXw-Rn8I=/0x0:620x465/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/j/k/LT5r1FSQyN1UtgIk8gxA/2013-05-29-point-blank.png" alt="Point Blank" class="imagem-estilizada">
+                <img src="https://play-lh.googleusercontent.com/m3CL7UEiRtFjqhCMYugaGDRp7J9TKH_baIcyv1YGBma4cskBnatMGoVu_txYfcIOY3DOK6h3_2ns3w54wlVU" alt="Need for Speed" class="imagem-estilizada">
+            </div>
+
+            <p class="texto-explicativo">
+    Sinta a adrenalina das pistas em <strong>Need for Speed</strong>, dispute partidas eletrizantes de tiro tático em <strong>Point Blank</strong> e enfrente combates épicos na jornada de <strong>God of War</strong>.
+           </p>
+<!-- Rodapé com estilo Inline aplicado (requisito obrigatório) -->
+    <footer style="text-align: center; margin-top: 40px; padding: 15px; background-color: #1a1a1a; border-top: 1px solid #333; color: #ffcc00; font-size: 0.9rem; font-style: italic;">
+        <p>&copy; 2026 Meu Portal de Entretenimento Digital - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+        </html>
